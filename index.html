@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asmita Chakraborty's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- AOS Animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+<body>
+
+  <header id="home">
+    <img src="images/profile.jpg" alt="Profile Photo" class="profile-img" />
+    <h1>Asmita Chakraborty</h1>
+    <p>B.Tech CSE | AIML Enthusiast | Web Developer</p>
+    <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="assets/AsmitaCV.pdf" download>Resume</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <main>
+    <section id="about" data-aos="fade-up">
+      <h2>About Me</h2>
+      <p>As a Computer Science Engineering undergraduate at VIT-AP, I am deeply passionate about Artificial Intelligence & Machine Learning (AI/ML), Prompt Engineering, Data Science & Data Analytics, DevOps, and Full-Stack Development. 
+        My academic journey is fueled by a drive to understand and build intelligent, scalable, and high-performing system systems. I enjoy exploring cutting-edge technologies, experimenting with modern frameworks, and optimizing workflows through automation and efficient design practices.
+        I’ve completed multiple certifications across these domains, further strengthening my practical understanding and technical versatility. Whether it’s developing responsive full-stack applications, or designing AI agents and Chatbots, I aim to bridge innovation with real-world impact. 
+        My goal is to contribute to building smart, sustainable, and future-focused tech solutions that make a difference.</p>
+    </section>
+
+    <section id="projects" data-aos="fade-up" data-aos-delay="100">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>SmartSOS</h3>
+        <p>SmartSOS is a portable, IoT-based emergency alert system designed to enhance personal safety through real-time location tracking, voice command detection, and an SOS button. 
+            Built using GPS, GSM, and microcontroller technology, the system enables users—especially in vulnerable situations—to instantly send distress signals with their coordinates to preconfigured emergency contacts. 
+            It’s ideal for students, elderly individuals, and those in isolated areas. This project demonstrates practical integration of embedded systems, wireless communication, and safety-first design thinking.</p>
+      </div>
+      <div class="project">
+        <h3>RealityCheck.AI</h3>
+        <p>RealityCheck.AI is a GenAI-powered agent designed to verify the authenticity of internal corporate claims using Few-shot Prompting, RAG (Retrieval Augmented Generation), and Function Calling. 
+            Instead of acting like a chatbot, it operates as a robust backend agent that cross-checks claims against synthetic documentation stored in a vector database. 
+            It’s ideal for internal fact-checking in knowledge-driven organizations, reducing misinformation and enhancing decision-making. The project highlights practical use of LLM orchestration and agent design for enterprise tasks.</p>
+        <a href="https://www.kaggle.com/code/asmitachakrab/reality-check-ai-capstone" class="btn" target="_blank">View Project</a>
+      </div>
+      <div class="project">
+        <h3>Sentiment Analysis System for Movie Reviews</h3>
+        <p>This project uses machine learning and natural language processing (NLP) to classify the sentiment of movie reviews as positive or negative. 
+            Using a Streamlit User Interface, it processes textual data using techniques like tokenization, TF-IDF vectorization, and applies classifiers such as Logistic Regression or SVM to predict sentiment with high accuracy. 
+            The system can be adapted to real-world feedback analysis, including product reviews or customer testimonials. It showcases the application of NLP pipelines and model evaluation in sentiment mining tasks.</p>
+        <a href="https://github.com/asmitachakrab/Sentiment-Analysis-Movie-Reviews.git" class="btn" target="_blank">View Project</a>
+      </div>
+    </section>
+
+    <section id="skills" data-aos="fade-up" data-aos-delay="200">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <div class="skill">
+          <h3>Programming Languages</h3>
+          <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C++ basics</li>
+            <li>C fundamentals</li>
+          </ul>
+        </div>
+        <div class="skill">
+          <h3>Technologies</h3>
+          <ul>
+            <li>AI/ML</li>
+            <li>Data Science & Analytics</li>
+            <li>Prompt Engineering</li>
+            <li>Full-Stack Web Development</li>
+          </ul>
+        </div>
+        <div class="skill">
+          <h3>Tools, Frameworks & Libraries</h3>
+          <ul>
+            <li>TensorFlow</li>
+            <li>PyTorch</li>
+            <li>Streamlit</li>
+            <li>Git & GitHub</li>
+            <li>Docker</li>
+            <li>NLTK</li>
+            <li>Hugging Face Transformers</li>
+            <li>Scikit Learn</li>
+            <li>OpenCV</li>
+            <li>FastAI</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" data-aos="fade-up" data-aos-delay="200">
+      <h2>Contact</h2>
+      <p><i class="fas fa-envelope"></i> asmita.chakrab@gmail.com</p>
+      <p><i class="fas fa-phone"></i> +91-93536 13703</p>
+      <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/asmita-chakraborty-4b19132a1" target="_blank">Asmita's LinkedIn</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; All rights reserved to Asmita Chakraborty @ 2025</p>
+  </footer>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
